@@ -95,6 +95,12 @@ function App() {
           <option value="bottom-left">Bottom-Left</option>
           <option value="bottom-right">Bottom-Right</option>
         </select>
+        <br />
+        <p className="footer-text">
+          React Toasts/Notifications system made by Peter Ahlgren. <br />
+          <a href="https://peterahlgren.com">Website</a>, <br />
+          <a href="https://github.com/ahlgren1234/toasts">Code</a>.
+        </p>
       </div>
       <Toast position={position} autoDeleteInterval={4000} />
     </div>
